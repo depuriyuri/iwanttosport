@@ -41,7 +41,8 @@
                 android:id="@+id/radio_beginner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Beginner" />
+                android:text="Beginner"
+                android:checked="false" />
 
             <RadioButton
                 android:id="@+id/radio_recreatie"

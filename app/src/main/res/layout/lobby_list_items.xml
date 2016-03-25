@@ -17,6 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Sport:"
+
             android:textSize="20dp" />
 
         <TextView
@@ -35,7 +36,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Moeilijkheidsgraad:" />
+            android:text="Moeilijkheidsgraad:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
 
         <TextView
             android:id="@+id/difficulty"
@@ -52,7 +55,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Tijd:" />
+            android:text="Tijd:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
 
         <TextView
             android:id="@+id/time"
@@ -70,7 +75,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Deelnemers:" />
+            android:text="Deelnemers:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
